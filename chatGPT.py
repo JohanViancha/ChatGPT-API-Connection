@@ -1,9 +1,9 @@
 import openai
 # Indica el API Key
-openai.api_key = "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"
+openai.api_key = "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"
 # Uso de ChapGPT en Python
 model_engine = "gpt-3.5-turbo"
-prompt = "la suma de 5 mas 5"
+prompt = "quien ha ganado más copas del mundo"
 completion = openai.Completion.create(engine=model_engine,
                                     prompt=prompt,
                                     max_tokens=1024,
